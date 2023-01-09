@@ -1,0 +1,26 @@
+#outside {
+    z-index: 1;
+    position: absolute;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+}
+
+.open-card {
+    transform: rotateY(90deg);
+}
+
+#outside-title {
+    color: black;
+    font-family: Roboto Slab;
+    font-size: 12pt;
+    tect-align: center;
+}
+
+#outside-pic {
+    width: 250px;
+    height: 150px;
+}
